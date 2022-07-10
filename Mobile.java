@@ -3,13 +3,16 @@ package week1.day1;
 public class Mobile {
 	
 	//Method
-	public static void Makecall() {
-		
+	public static void makeCall() {
+		boolean makecall = true;
+		System.out.println("Call forwarding  :"  +makecall);
 	
 	}
 	
 	public static void sendMsg() {
 		
+		boolean sendMsg = false;
+		System.out.println("Message sending  :"   +sendMsg);
 		
 	}
 	
@@ -17,12 +20,8 @@ public class Mobile {
 	//Main Method
 	public static void main(String[] args) {
 		
-		boolean makecall = true;
-		System.out.println("Call forwarding  :"  +makecall);
-		
-		boolean sendMsg = false;
-		System.out.println("Message sending  :"   +sendMsg);
-		
+		makeCall();
+		sendMsg();
 		String mymobile="this is my Mobile";
 		System.out.println(mymobile);
 	
